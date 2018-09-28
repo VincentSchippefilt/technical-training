@@ -1,6 +1,6 @@
 # Odoo 12.0 JS Framework - Module 4
 
-## Testing Your frontend code
+## Testing your frontend code
 
 The theme of this training module is to understand and experiment with the
 various methods of testing UI code.
@@ -75,7 +75,7 @@ API. So, we would like a few tests to see if the following features still works:
 - it performs a search_read on all customers
 - it displays the results in a list on the left
 - filtering customers does not do any rpc
-- but it still filters rentals in kanban view
+- clicking on a customer filters orders in kanban view
 
 Resources:
 ----------
