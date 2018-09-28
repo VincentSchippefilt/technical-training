@@ -122,7 +122,7 @@ can use the KanbanRenderer as an example.
 
 Resources:
 ----------
-- [KanbanRender - qweb instance](https://github.com/odoo/odoo/blob/saas-11.5/addons/web/static/src/js/views/kanban/kanban_renderer.js#L106)
+- [KanbanRender - qweb instance](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/src/js/views/kanban/kanban_renderer.js#L106)
 
 
 ## Task 3.5: make sure data is synchronized with search view
