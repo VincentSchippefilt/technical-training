@@ -12,12 +12,14 @@ new view type.
 The arch should look like this:
 
     <map latitude="some_field" longitude="some_other_field">
-        <field name="field1"/>
-        <field name="field2"/>
-        <template>
-            <div>... <t t-esc="record.field1"/>
-            </div>
-        </template>
+      <field name="field1"/>
+      <field name="field2"/>
+      <template>
+        <t t-name="map-popup">
+          <div>... <t t-esc="record.field1"/>
+          </div>
+        </t>
+      </template>
     </map>
 
 In this code, the latitude and longitude attributes should describe a float field.
@@ -94,7 +96,7 @@ Resources:
 - [AbstractRenderer on_attach_callback hook](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/src/js/views/abstract_renderer.js#L42)
 
 
-## Task 3.4: connect renderer with proper data
+## Task 3.4.1: connect renderer with proper data
 
 Goals:
 ------
@@ -103,7 +105,24 @@ Goals:
 Description:
 ------------
 - Use the leaflet API to add markers to each data point currently loaded
-- render the proper template for each data point
+
+
+## Task 3.4.2: render the template (hard)
+
+Goals:
+------
+- render record information for each data point in the map
+
+Description:
+------------
+- render the proper template for each data point in a popup
+
+Note: you'll have to create your own qweb instance to render the template. You
+can use the KanbanRenderer as an example.
+
+Resources:
+----------
+- [KanbanRender - qweb instance](https://github.com/odoo/odoo/blob/saas-11.5/addons/web/static/src/js/views/kanban/kanban_renderer.js#L106)
 
 
 ## Task 3.5: make sure data is synchronized with search view
