@@ -1,12 +1,12 @@
 
-# Odoo 12.0 - Technical Training - Module 1
+# Odoo 12.0 JS Framework - Module 1
 
 ## Widgets: the UI building blocks
 
 Widgets are the basic UI building blocks in Odoo.  They are mostly equivalent
 to the notion of *component* in other popular frameworks.
 
-## Task 1: create empty dashboard
+## Task 1.1: create empty dashboard
 
 Goals:
 ------
@@ -37,7 +37,7 @@ Resources:
 * [Client Actions](https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#client-actions)
 
 
-## Task 2: add a simple widget
+## Task 1.2: add a simple widget
 
 Goals:
 ------
@@ -61,7 +61,7 @@ Resources:
 * [Widget API](https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#widgets)
 * [QWeb Template engine](https://www.odoo.com/documentation/12.0/reference/qweb.html)
 
-## Task 3A: add quick navigation
+## Task 1.3A: add quick navigation
 
 Goals:
 ------
@@ -86,7 +86,7 @@ Resources:
 * [example of do_action use](https://github.com/odoo/odoo/blob/9393a0eba88cad6184b5255a11f6a5a2996528cc/addons/web/static/src/js/tools/debug_manager.js#L285)
 * [res_partner action](https://github.com/odoo/odoo/blob/a0ff2966b6db4e652fdc19a2f792af8cf3e5ce69/odoo/addons/base/views/res_partner_views.xml#L585)
 
-## Task 3B: add various statistics
+## Task 1.3B: add various statistics
 
 Goals:
 ------
@@ -114,7 +114,7 @@ Resources:
 * [rpc documentation](https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#rpcs)
 * [widget lifecycle](https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#widget-lifecycle)
 
-## Task 3C: pie chart
+## Task 1.3C: pie chart
 
 Goals:
 ------

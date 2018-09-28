@@ -26,7 +26,7 @@ at the corresponding record location.  The field tags determine which fields
 should be fetched.
 
 
-## Task 1: hello world view
+## Task 3.1: hello world view
 
 Goals:
 ------
@@ -48,7 +48,7 @@ Resources:
 * [Creating a new view from scratch](https://www.odoo.com/documentation/12.0/reference/javascript_cheatsheet.html#creating-a-new-view-from-scratch)
 
 
-## Task 2: fetching data
+## Task 3.2: fetching data
 
 Goals:
 ------
@@ -73,7 +73,7 @@ Resources:
 * [AbstractModel API](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/src/js/views/abstract_model.js)
 
 
-## Task 3: use an external library (leaflet)
+## Task 3.3: use an external library (leaflet)
 
 Goals:
 ------
@@ -94,7 +94,7 @@ Resources:
 - [AbstractRenderer on_attach_callback hook](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/src/js/views/abstract_renderer.js#L42)
 
 
-## Task 4: connect renderer with proper data
+## Task 3.4: connect renderer with proper data
 
 Goals:
 ------
@@ -106,7 +106,7 @@ Description:
 - render the proper template for each data point
 
 
-## Task 5: make sure data is synchronized with search view
+## Task 3.5: make sure data is synchronized with search view
 
 Goals:
 ------
@@ -123,7 +123,7 @@ Resources:
 - [AbstractController API](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/src/js/views/abstract_controller.js)
 
 
-## Task 6: switch to the form view when clicking on marker
+## Task 3.6: switch to the form view when clicking on marker
 
 Goals:
 ------
@@ -135,7 +135,7 @@ Description:
 - when clicking on a pin, it should switch to a form view
 
 
-## Task 7: implement custom control panel buttons
+## Task 3.7: implement custom control panel buttons
 
 Goals:
 ------

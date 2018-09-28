@@ -8,7 +8,7 @@ The basic infrastructure is exactly the same, and it does not require the
 completion of the previous exercises.
 
 
-## Task 1A: T-shirt preview widget
+## Task 2.1A: T-shirt preview widget
 
 Goals:
 ------
@@ -36,7 +36,7 @@ Resources:
 * [Field registry](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/src/js/fields/field_registry.js)
 
 
-## Task 1B: T-shirt preview widget
+## Task 2.1B: T-shirt preview widget
 
 Goals:
 ------
@@ -56,7 +56,7 @@ Resources:
 * [isSet function of AbstractField](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/src/js/fields/abstract_field.js#L276)
 
 
-## Task 2: isLate widget in form/kanban views
+## Task 2.2: isLate widget in form/kanban views
 
 Goals:
 ------
@@ -77,7 +77,7 @@ Resources:
 - [Example of a sub field widget, with options](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/src/js/fields/basic_fields.js#L923)
 
 
-## Task 3: message for some customers
+## Task 2.3: message for some customers
 
 Goals:
 ------
@@ -100,7 +100,7 @@ Resources:
 - [Example of form widget use](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/tests/views/form_tests.js#L6583)
 
 
-## Task 4: add buttons in control panel
+## Task 2.4: add buttons in control panel
 
 Goals:
 ------
@@ -154,7 +154,7 @@ Resources:
 - [debounce function](https://underscorejs.org/#debounce)
 
 
-## Task 5: Notifications
+## Task 2.5: Notifications
 
 Goals:
 ------
@@ -175,7 +175,7 @@ Resources:
 - [Notification API](https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#notifications)
 
 
-## Task 6: add a systray item
+## Task 2.6: add a systray item
 
 Goals:
 ------
@@ -200,7 +200,7 @@ Resources:
 - [Example of a Systray item](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/mail/static/src/js/systray/systray_activity_menu.js#L146)
 
 
-## Task 7.1: Customized message in Home screen
+## Task 2.7.1: Customized message in Home screen
 
 Goals:
 ------
@@ -227,7 +227,7 @@ Resources:
 
 
 
-## Task 7.2: Load data from the server
+## Task 2.7.2: Load data from the server
 
 Goals:
 ------
@@ -257,7 +257,7 @@ Resources:
 - [Adding info to the session](https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#adding-information-to-the-session)
 
 
-## Task 8: Custom Kanban View (hard)
+## Task 2.8: Custom Kanban View (hard)
 
 Goals:
 ------

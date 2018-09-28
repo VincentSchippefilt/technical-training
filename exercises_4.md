@@ -30,7 +30,7 @@ Notes:
 - most of these exercises are dependant on previous tasks in modules 1, 2 and 3
 
 
-## Task 1: Testing a widget
+## Task 4.1: Testing a widget
 
 Goals:
 ------
@@ -57,7 +57,7 @@ Resources:
 - [Example of simple test suite](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/web/static/tests/chrome/pager_tests.js)
 
 
-## Task 2: Testing a view
+## Task 4.2: Testing a view
 
 Goals:
 ------
@@ -83,7 +83,7 @@ Resources:
 - [Mock Server](https://github.com/odoo/odoo/blob/c3048b14657364afbeda31dd852f103b596dc5c7/addons/web/static/tests/helpers/mock_server.js)
 
 
-## Problem 3: write a tour
+## Problem 4.3: write a tour
 
 Goals:
 ------
@@ -107,7 +107,7 @@ Resources:
 - [Example of a tour](https://github.com/odoo/odoo/blob/57decbbed6d3d8899b09a58361ae9b30d39a9c03/addons/project/static/src/js/tour.js)
 
 
-## Problem 4: test your dashboard
+## Problem 4.4: test your dashboard
 
 Goals:
 ------
