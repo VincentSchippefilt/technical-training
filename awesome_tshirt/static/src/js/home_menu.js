@@ -17,8 +17,9 @@ HomeMenu.include({
     _render: function () {
         this._super.apply(this, arguments);
         var $message = $('<div>', {
-            class: 'p-2 alert-warning',
+            class: 'p-2 alert-warning o_custom_message',
         }).text(session.home_menu_message);
+        this.$('.o_custom_message').remove();
         this.$el.prepend($message);
     },
 });
